@@ -81,7 +81,7 @@ type retStatus struct {
 	SQLText      string   `json:"sqlText"`
 	StartTime    int64    `json:"startTime"`
 	EndTime      int64    `json:"endTime"`
-	ErrorCode    int      `json:"errorCode"`
+	ErrorCode    int      `json:"errorCode,string"`
 	ErrorMessage string   `json:"errorMessage"`
 	Stats        retStats `json:"stats"`
 }
